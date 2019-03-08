@@ -80,12 +80,10 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: my websie
+  - title: know more about zijin
     url: https://me.zijinluo.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: view zijin's resume
+    url: https://resume.zijinluo.com/
 
 # Static files
 js: js
