@@ -1,21 +1,14 @@
 # Maupassant
 
-[![Build Status](https://travis-ci.org/tufu9441/maupassant-hexo.svg?branch=master)](https://travis-ci.org/tufu9441/maupassant-hexo)   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tufu9441/maupassant-hexo/blob/master/LICENSE)
+[![Build Status](https://travis-ci.com/icpm/maupassant-hexo.svg?branch=master)](https://travis-ci.com/icpm/maupassant-hexo) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/icpm/maupassant-hexo/blob/master/LICENSE)
 
-> 大道至简
-
-[Preview](https://www.haomwei.com)｜[中文文档](https://www.haomwei.com/technology/maupassant-hexo.html)
-
-A simple Hexo template with great performance on different devices, ported from a Typecho theme by [Cho](https://github.com/pagecho/maupassant/), forked and modified from [icylogic](https://github.com/icylogic/maupassant-hexo/).
-
-![template preview](http://ooo.0o0.ooo/2015/10/24/562b5be12177e.jpg
- "Maupassant template preview")
+A simple Hexo template with great performance on different devices.
 
 ## Installation
+
 Install theme and renderers:
 
 ```shell
-$ git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant
 $ npm install hexo-renderer-pug --save
 $ npm install hexo-renderer-sass --save
 ```
@@ -23,6 +16,7 @@ $ npm install hexo-renderer-sass --save
 Then change your `theme` setting in `_config.yml` to `maupassant`.
 
 ## Configuration
+
 Default config:
 
 ```YAML
@@ -135,6 +129,7 @@ css: css
 # Theme version
 version: 0.0.0
 ```
+
 - disqus - [Disqus](https://disqus.com) shortname
 - uyan - [Uyan](http://www.uyan.cc) id
 - livere - [LiveRe](https://livere.com) data-uid
@@ -167,24 +162,31 @@ version: 0.0.0
 - Theme version - For automatic refresh of static files on CDN.
 
 ## Features
-#### Logo
-You can set a **favicon.ico** for your website, please put it into  `source` folder of hexo directory, recommended size: 32px*32px.
 
-You can add a website logo for apple devices, please put an image named **apple-touch-icon.png** into `source` folder of hexo directory, recommended size: 114px*114px.
+#### Logo
+
+You can set a **favicon.ico** for your website, please put it into `source` folder of hexo directory, recommended size: 32px\*32px.
+
+You can add a website logo for apple devices, please put an image named **apple-touch-icon.png** into `source` folder of hexo directory, recommended size: 114px\*114px.
 
 #### Abstract
+
 You can control the abstract of a post shown at index, by either filling a `description:` item in `front-matter` of the `post.md`, or just inserting a `<!--more-->` before your hidden content.
 
 #### Page
+
 Create folders inlcuding `index.md` in `source` folder to add pages, and add a `layout: page` in `front-matter` of `index.md`. If you need a single column page without sidebar, just set `layout: single-column` instead of `layout: page`.
 
 #### Table of Contents
+
 TOC in a post can be enabled by adding a `toc: true` item in `front-matter`.
 
 #### Comments
+
 Comment feature of each post and page can be enabled (default) and disabled by adding a `comments: true` or a `comments: false` in `front-matter`. This could be useful when you want comment feature for a guestbook page, but don't want comment feature for a about page.
 
 #### Syntax Highlighting
+
 Highlighted code showcase is supported, please set the `highlight` option in `_config.yml` of hexo directory like this:
 
 ```YAML
@@ -196,10 +198,13 @@ highlight:
 ```
 
 #### Math Equation
+
 Add
+
 ```YAML
 mathjax: true
 ```
+
 in Hexo's `_config.yml`.
 
 In the post which you would like to use math equation, add `mathjax: true` in the `front-matter`. For example:
@@ -211,6 +216,7 @@ categories: math
 mathjax: true
 ---
 ```
+
 The default math delimiters are `$$...$$` and `\\[...\\]` for displayed mathematics,
 and `$...$` and `\\(...\\)` for in-line mathematics.
 
@@ -219,33 +225,37 @@ However, if your post contains dollar signs (`$`), and they appear often in non-
 ```YAML
 mathjax2: true
 ```
+
 in Hexo's `_config.yml` instead of `mathjax: true`. Correspondingly, add `mathjax2: true` to the `front-matter` of the post in which
 you would like to use math equation.
 
 See the [example](http://zhongpu.info/2016/05/06/Mathjax%20and%20Hexo/).
 
 #### Languages
+
 Seven languages are available for this theme currently: Simplified Chinese (zh-CN), Traditional Chinese (zh-TW), English (en), French (fr-FR), German (de-DE), Korean (ko) and Spanish (es-ES). Contributions of translating to other languages will be highly appreciated.
 
 ## Solutions
+
 - Check whether your Terminal's current directory is in hexo's root directory which contains `source/`, `themes/`, etc.
 
 - If you have any trouble in using this theme, please feel free to open an [issue](https://github.com/tufu9441/maupassant-hexo/issues).
 
-## Browser Support
-![Imgur](http://i.imgur.com/iO9L5ty.png)
-
 ## Contributing
+
 All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
 
 Looking forward to your pull request.
 
 ## Acknowledgements
+
 Thanks for all the [contributors](https://github.com/tufu9441/maupassant-hexo/graphs/contributors) of this theme.
 .
+
 ## Maupassant on other platforms:
-+ Typecho：https://github.com/pagecho/maupassant/
-+ Octopress：https://github.com/pagecho/mewpassant/
-+ Farbox：https://github.com/pagecho/Maupassant-farbox/
-+ Wordpress：https://github.com/iMuFeng/maupassant/
-+ Ghost: https://github.com/LjxPrime/maupassant/
+
+- Typecho：https://github.com/pagecho/maupassant/
+- Octopress：https://github.com/pagecho/mewpassant/
+- Farbox：https://github.com/pagecho/Maupassant-farbox/
+- Wordpress：https://github.com/iMuFeng/maupassant/
+- Ghost: https://github.com/LjxPrime/maupassant/
